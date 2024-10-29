@@ -5,7 +5,7 @@
 function solution(a, b, c) {
   let cnt = 0;
   let sum = 0;
-  let lt = (rt = 0);
+  let lt = 0;
   for (let rt = 0; rt < a; rt++) {
     sum += c[rt];
     if (sum === b) cnt++;
