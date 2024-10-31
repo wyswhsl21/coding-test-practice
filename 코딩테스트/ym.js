@@ -36,7 +36,7 @@ async function ymLogin() {
 async function Numinteger() {
   for (let i = 100; i <= 150; i++) {
     try {
-      await fetch(`url주소_${i}`, {
+      await fetch(`https://sniperfactory.com/sfac/http_assignment_${i}`, {
         method: "POST",
         headers: {
           "user-agent": "SniperFactoryBrowser",
